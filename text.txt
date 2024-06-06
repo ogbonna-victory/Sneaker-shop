@@ -1,0 +1,7 @@
+<div class="image-container">
+    <img src="/Images/banner.jpg" alt="sneaker" class="img-fluid d-block banner-image">
+  </div>
+  <P class="banner-caption fs-1 fw-bold text-center">Fresh Kicks, Fresh Style<br>
+    Shop the Hottest Sneakers<br> Now<br>
+    <button type="button" class="btn btn-lg rounded-0">Shop Luxury Sneakers</button>
+  </P>

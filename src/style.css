@@ -1,0 +1,660 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #dcdcdc;
+    color: rgb(10, 25, 47);
+    
+}
+
+nav{
+    height: 80px !important;
+}
+.home, .brands, .contact, .about, .cart{
+    color: white !important;
+    font-size: 18px;
+}
+.image-container{
+    height: 650px;
+    width: 100%;
+}
+.banner-image{
+    display: block;
+    width: 100%;
+    height: 100%;
+    filter: brightness(0.6);
+    position: relative;
+}
+.banner-caption{
+    position: absolute;
+    top: 40%;
+    left: 30%;
+    color: white;
+}
+.btn{
+    background-color: rgb(10, 25, 47) !important;
+    color: white !important;
+    border: none !important;
+}
+.box-container{
+    display: flex;
+    margin-top: 60px;
+    margin-bottom: 40px;
+}
+.box1, .box2, .box3{
+    
+    height: 200px;
+    flex: 1;
+    color: rgb(10, 25, 47);
+}
+.fa-regular.fa-star, .fa-solid.fa-shoe-prints, .fa-solid.fa-van-shuttle{
+    font-size: 1.5em;
+    color: rgb(10, 25, 47);
+    margin-bottom: 10px;
+    margin-top: 10px;
+    margin-left: 30px;
+}
+.style-text{
+    margin-left: 30px;
+}
+.bgimage2{
+    display: block;
+    height: 800px;
+    width: 100%;
+    margin: auto;
+}
+.womensec-container{
+    display: flex;
+    margin-top: 50px;
+    margin-bottom: 0;
+    align-items: center;
+    justify-content: center;
+}
+.womensneaker-info1{
+    width: 500px;
+    height: 400px;
+    color: rgb(10, 25, 47);
+    background-color: white;
+}
+.womensec-img1{
+    width: 500px !important;
+    height: 400px !important;
+}
+.womensec-heading1, .womensec-heading{
+    margin-top: 90px;
+    margin-left: 100px;
+}
+.womensec-details1, .womensec-details{
+    margin-left: 100px;
+}
+.section3-img2{
+    width: 500px !important;
+    height: 400px !important;
+}
+.shop-womens1{
+    background-color: rgb(10, 25, 47) !important;
+    border: none !important;
+    margin-left: 100px !important;
+    font-size: small !important;
+    margin-top: 20px !important;
+}
+.shop-womens:hover{
+    text-decoration: underline;
+}
+.mensec-con{
+    display: flex;
+    margin-top: 0;
+    margin-bottom: 0;
+    align-items: center;
+    justify-content: center;
+}
+.image3{
+    width: 500px;
+    height: 500px;
+}
+.mensec-info{
+    width: 500px;
+    height: 500px;
+    color: rgb(10, 25, 47);
+    background-color: white;
+}
+.first-sec{
+    background-color: rgb(10, 25, 47);
+    color: white;
+    padding-bottom: 60px;
+}
+.mensec-heading{
+   padding-top: 40px;
+   margin-left: 100px;
+}
+.mensec-details{
+   margin-left: 100px;
+}
+.shop-mens{
+    background-color: white !important;
+    color: rgb(10, 25, 47) !important;
+    border: none !important;
+    margin-left: 100px !important;
+    font-size: small !important;
+    margin-top: 20px !important;
+    padding-left: 40px !important;
+    padding-right: 40px !important;
+}
+.mensec-secondheading{
+    margin-top: 40px;
+    margin-left: 100px;
+}
+.mensec-seconddinfo{
+    margin-left: 100px;
+}
+.bg-section{
+    background-color: lightgrey;
+    height: 450px;
+    display: flex;
+}
+.fourth-bg{
+    display: block;
+    width: 700px;
+    height: 450px;
+    flex: 1;
+    margin-right: 0 !important;
+    padding-top: 0 !important;
+}
+.bg-flex{
+   flex: 1;
+   height: 450px;
+   color: rgb(10, 25, 47) !important;
+}
+.bgsecheading{
+    margin-left: 150px;
+    margin-top: 130px;
+}
+.sls{
+    background-color: rgb(10, 25, 47) !important;
+    border: none !important;
+    margin-left: 150px !important;
+    font-size: small !important;
+    margin-top: 20px !important;
+}
+.section3{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.section3-textcon{
+    width: 500px;
+    height: 400px;
+    background-color: rgb(10, 25, 47) !important;
+    color: white;
+}
+.section3-img{
+   width: 500px;
+   height: 400px;
+}
+.section4{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 40px;
+}
+.section4-male{
+    width: 500px;
+    height: 200px;
+    background-color: rgb(10, 25, 47);
+    color: white;
+}
+.section4-female{
+    width: 500px;
+    height: 200px;
+    background-color: lightpink;
+    color: white;
+}
+.sec4-maleheading, .sec4-femaleheading{
+    margin-top: 50px;
+    margin-left: 200px;
+}
+.section4-btnmale{
+    margin-top: 15px;
+    margin-left: 170px;
+    background-color: white !important;
+    color: rgb(10, 25, 47) !important;
+    font-size: small;
+    padding-left: 20px !important;
+    padding-right: 20px !important;
+}
+.section4-btnfemale{
+    margin-top: 15px;
+    margin-left: 190px;
+    background-color: white !important;
+    color: rgb(10, 25, 47) !important;
+    font-size: small;
+    padding-left: 20px !important;
+    padding-right: 20px !important;
+}
+.rating{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 80px;
+}
+.firstrate, .secondrate{
+    width: 500px;
+    height: 300px;
+    text-align: center;
+    
+}
+.fa-solid.fa-star{
+    font-size: 1.5em;
+    color: rgb(10, 25, 47);
+    margin: 5px;
+    margin-bottom: 15px !important;
+}
+footer{
+    background-color: lightgray;
+    height: 70px;
+    color: rgb(10, 25, 47);
+    
+    text-align: center;
+    padding-top: 30px;
+}
+
+@media (max-width: 475px) {
+    .banner-image{
+        display: block;
+        width: 100%;
+        margin: 0 auto;
+    }
+    
+    .box-container, .rating{
+        flex-direction: column;
+    }
+    .box1, .box2, .box3{
+        width: 90%;
+        height: 350px !important;
+    }
+    .style-text{
+        font-size: 18px !important;
+    }
+    .banner-caption{
+        left: 10%;
+    }
+    .image-container{
+        height: 500px !important;
+    }
+    .womensec-container, .mensec-con, .section3{
+        flex-direction: column;
+        margin: 0 auto;
+    }
+    .section3-img, .section3-textcon{
+        width: 100% !important;
+        height: 300px !important;
+        font-size: 18px;
+    }
+    .section3-img2{
+        width: 100% !important;
+        height: 300px !important;
+    }
+    .womensneaker-info, .womensec-img{
+        width: 100% !important;
+        height: 400px !important;
+    }
+    .womensneaker-info1, .womensec-img1{
+        width: 100%;
+        height: 400px;
+    }
+    .shop-womens1{
+        margin-left: 50px !important;
+        font-size: 1em;
+    }
+    .womensec-heading1{
+        margin-top: 70px;
+        margin-left: 50px;
+        font-size: 18px;
+    }
+    .womensec-details1{
+        margin-left: 50px;
+        font-size: 18px;
+    }
+    .firstrate, .secondrate{
+        width: 80% !important;
+    }
+    
+    .section4{
+        display: none;
+    }
+    .womensec-heading{
+        margin-top: 60px !important;
+        margin-left: 50px;
+        font-size: 18px;
+    }
+    .womensec-details{
+        margin-left: 50px;
+        font-size: 18px;
+    }
+    .mensec-info, .image3{
+        width: 100%;
+    }
+    .mensec-info{
+        margin-bottom: 0 !important;
+    }
+    .mensec-heading, .mensec-details, .mensec-seconddinfo, .mensec-secondheading{
+        margin-left: 50px;
+        font-size: 18px;
+    }
+    .shop-mens{
+        margin-left: 50px !important;
+        font-size: 1em;
+    }
+    .womensec-img{
+        margin-bottom: 50px;
+    }
+    .fourth-bg, .bg-flex{
+        width: 50% !important;
+        height: 200px !important;
+    }
+    .bg-section{
+        height: 200px;
+        width: 100%;
+        margin: auto !important;
+    }
+    .bgsecheading{
+        margin-left: 15px;
+        margin-top: 15px;
+        
+    }
+    .sls{
+        margin-left: 15px !important;
+        font-size: 1em !important;
+    }
+    .bgimage2{
+        width: 100% !important;
+        height: 400px !important;
+    }
+    
+    }
+    @media (max-width: 640px) {
+        .banner-image{
+            display: block;
+            width: 100%;
+            margin: 0 auto;
+        }
+        
+        .box-container, .rating{
+            flex-direction: column;
+        }
+        .box1, .box2, .box3{
+            width: 90%;
+            height: 350px !important;
+        }
+        .style-text{
+            font-size: 18px !important;
+        }
+        .banner-caption{
+            left: 20%;
+            top: 30%;
+        }
+        .image-container{
+            height: 500px !important;
+        }
+        .womensec-container, .mensec-con, .section3{
+            flex-direction: column;
+            margin: 0 auto;
+        }
+        .section3-img, .section3-textcon{
+            width: 100% !important;
+            height: 300px !important;
+            font-size: 20px;
+        }
+        .section3-img2{
+            width: 100% !important;
+            height: 300px !important;
+        }
+        .womensneaker-info, .womensec-img{
+            width: 100% !important;
+            height: 400px !important;
+        }
+        .womensneaker-info1, .womensec-img1{
+            width: 100%;
+            height: 400px;
+        }
+        .shop-womens1{
+            margin-left: 50px !important;
+            font-size: 1em;
+        }
+        .womensec-heading1{
+            margin-top: 70px;
+            margin-left: 50px;
+            font-size: 18px;
+        }
+        .womensec-details1{
+            margin-left: 50px;
+            font-size: 18px;
+        }
+        .firstrate, .secondrate{
+            width: 80% !important;
+        }
+        
+        .section4{
+            width: 100%;
+        }
+        .section4-male, .section4-female{
+            width: 50%;
+        }
+        .sec4-maleheading{
+            margin-left: 45%;
+        }
+        .section4-btnmale{
+            margin-left: 35%;
+        }
+        .sec4-femaleheading{
+            margin-left: 35%;
+        }
+        .section4-btnfemale{
+            margin-left: 30%;
+        }
+        .womensec-heading{
+            margin-top: 60px !important;
+            margin-left: 50px;
+            font-size: 20px;
+        }
+        .womensec-details{
+            margin-left: 50px;
+            font-size: 20px;
+        }
+        .mensec-info, .image3{
+            width: 100%;
+        }
+        .mensec-info{
+            margin-bottom: 0 !important;
+        }
+        .mensec-heading, .mensec-details, .mensec-seconddinfo, .mensec-secondheading{
+            margin-left: 50px;
+            font-size: 20px;
+        }
+        .shop-mens{
+            margin-left: 50px !important;
+            font-size: 1em;
+        }
+        .womensec-img{
+            margin-bottom: 50px;
+        }
+        .fourth-bg, .bg-flex{
+            width: 50% !important;
+            height: 200px !important;
+        }
+        .bg-section{
+            height: 200px;
+            width: 100%;
+            margin: auto !important;
+        }
+        .bgsecheading{
+            margin-left: 15px;
+            margin-top: 15px;
+            
+        }
+        .sls{
+            margin-left: 15px !important;
+            font-size: 1em !important;
+        }
+        .bgimage2{
+            width: 100% !important;
+            height: 400px !important;
+        }
+    }
+    @media (max-width: 768px) {
+        .banner-image{
+            display: block;
+            width: 100%;
+            margin: 0 auto;
+        }
+        
+        .box-container, .rating{
+            flex-direction: column;
+        }
+        .box1, .box2, .box3{
+            width: 90%;
+            height: 350px !important;
+        }
+        .style-text{
+            font-size: 20px !important;
+        }
+        .banner-caption{
+            left: 20%;
+            top: 30%;
+        }
+        .image-container{
+            height: 500px !important;
+        }
+        .womensec-container, .mensec-con, .section3{
+            flex-direction: column;
+            margin: 0 auto;
+        }
+        .womensec-img1{
+            width: 100% !important;
+            height: 500PX !important;
+        }
+        .section3-textcon{
+            width: 100% !important;
+            height: 400px !important;
+            font-size: 20px;
+        }
+        .section3-img{
+            width: 100% !important;
+            height: 400px !important;
+        }
+        .section3-img2{
+            width: 100% !important;
+            height: 500px !important;
+        }
+        .womensec-img{
+            width: 100% !important;
+            height: 500px !important;
+        }
+        .womensneaker-info{
+            width: 100% !important;
+            height: 400px !important;
+        }
+        .womensec-img1{
+            width: 100% !important;
+            height: 500px !important;
+        }
+        .womensneaker-info1{
+            width: 100% !important;
+            height: 400px !important;
+        }
+        .shop-womens1{
+            margin-left: 50px !important;
+            font-size: 1em;
+        }
+        .womensec-heading1{
+            margin-top: 70px;
+            margin-left: 50px;
+            font-size: 18px;
+        }
+        .womensec-details1{
+            margin-left: 50px;
+            font-size: 18px;
+        }
+        .firstrate, .secondrate{
+            width: 80% !important;
+        }
+        
+        .section4{
+            width: 100%;
+        }
+        .section4-male, .section4-female{
+            width: 50%;
+        }
+        .sec4-maleheading{
+            margin-left: 45%;
+        }
+        .section4-btnmale{
+            margin-left: 35%;
+        }
+        .sec4-femaleheading{
+            margin-left: 35%;
+        }
+        .section4-btnfemale{
+            margin-left: 30%;
+        }
+        .womensec-heading{
+            margin-top: 60px !important;
+            margin-left: 50px;
+            font-size: 20px;
+        }
+        .womensec-details{
+            margin-left: 50px;
+            font-size: 20px;
+        }
+        .mensec-info, .image3{
+            width: 100%;
+        }
+        .mensec-info{
+            margin-bottom: 0 !important;
+        }
+        .mensec-heading, .mensec-details, .mensec-seconddinfo, .mensec-secondheading{
+            margin-left: 50px;
+            font-size: 20px;
+        }
+        .shop-mens{
+            margin-left: 50px !important;
+            font-size: 1em;
+        }
+        .womensec-img{
+            margin-bottom: 50px;
+        }
+        .fourth-bg, .bg-flex{
+            width: 50% !important;
+            height: 350px !important;
+        }
+        .fourth-bg{
+            height: 350PX !important;
+        }
+        .bg-section{
+            height: 350px !important;
+            width: 100%;
+            margin: auto !important;
+        }
+        .bgsecheading{
+            margin-left: 30px;
+            margin-top: 80px;
+            
+        }
+        .sls{
+            margin-left: 30px !important;
+            font-size: 1em !important;
+        }
+        .bgimage2{
+            width: 100% !important;
+            height: 500px !important;
+        }
+        .image3{
+            width: 100%;
+            height: 500PX !important;
+        }
+    }
+    
+    
