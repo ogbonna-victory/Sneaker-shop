@@ -5,3 +5,4 @@
     Shop the Hottest Sneakers<br> Now<br>
     <button type="button" class="btn btn-lg rounded-0">Shop Luxury Sneakers</button>
   </P>
+  "C:\Users\akuma\Downloads\whereslugo-ad047kyPBh8-unsplash.jpg"
