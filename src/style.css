@@ -279,7 +279,7 @@ footer{
         font-size: 18px !important;
     }
     .banner-caption{
-        left: 10%;
+        left: 15% !important;
     }
     .image-container{
         height: 500px !important;
@@ -334,12 +334,16 @@ footer{
         margin-left: 50px;
         font-size: 18px;
     }
-    .mensec-info, .image3{
+    .image3{
         width: 100%;
         height: 500px !important;
     }
     .mensec-info{
+        height: 700px !important;
         margin-bottom: 0 !important;
+    }
+    .mensec-seconddinfo{
+        padding-bottom: 50px !important;
     }
     .mensec-heading, .mensec-details, .mensec-seconddinfo, .mensec-secondheading{
         margin-left: 50px;
@@ -354,16 +358,16 @@ footer{
     }
     .fourth-bg, .bg-flex{
         width: 50% !important;
-        height: 200px !important;
+        height: 100px !important;
     }
     .bg-section{
-        height: 200px;
+        height: 200px !important;
         width: 100%;
         margin: auto !important;
     }
     .bgsecheading{
         margin-left: 15px;
-        margin-top: 15px;
+        margin-top: 10px;
         
     }
     .sls{
